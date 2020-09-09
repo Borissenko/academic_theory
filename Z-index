@@ -1,0 +1,20 @@
+
+
+Если  z-index не сhабатывает, то всем братьям добавляем 
+opacity: 0.99;
+
+или явно заявляем position(!):
+position: absolute, relative  +  z-index не auto.
+
+
+Важен порядок заявления(!)
+  opacity: 0.99; 
+  z-index: 1;
+
+
+
+
+
+
+
+
