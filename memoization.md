@@ -6,30 +6,30 @@
 
 
 ## простая функция, прибавляющая 10 к переданному ей числу
-const add = (n) => (n + 10);
-add(9);
+const add = (n) => (n + 10) 
+add(9) 
 
 
 ## аналогичная функция с мемоизацией
 const memoizedAdd = () => {
-    let cache = {};
+    let cache = {} 
     return (n) => {
         if (n in cache) {
-            console.log('Fetching from cache');
-            return cache[n];
+            console.log('Fetching from cache') 
+            return cache[n] 
         }
         else {
-            console.log('Calculating result');
-            let result = n + 10;
-            cache[n] = result;
-            return result;
+            console.log('Calculating result') 
+            let result = n + 10 
+            cache[n] = result 
+            return result 
         }
     }
 }
 
-const newAdd = memoizedAdd();
-console.log(newAdd(9)); // вычислено
-console.log(newAdd(9)); // взято из кэша
+const newAdd = memoizedAdd() 
+console.log(newAdd(9))  // вычислено
+console.log(newAdd(9))  // взято из кэша
 
 
 

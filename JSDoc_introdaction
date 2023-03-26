@@ -28,4 +28,4 @@
  */
 const dd = function ( store ) {
     return store - 5
-};
+}
