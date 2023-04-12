@@ -7,7 +7,7 @@ enum Status {
   Published,
   Deleted
 }
-
+//на случай, когда Status - something else, совершим throw Error.
 class ArticleException extends Error {/*...*/}
 
 class Article {
