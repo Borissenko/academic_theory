@@ -1,5 +1,7 @@
 DDD – Domain Driven Design
 
+//https://habr.com/ru/articles/459620/   (!) <<reed it!
+
 # Включает в себя:
 — Фишка DDD - Ограниченный Контекст (Bounded Context)
 разделение проекта на модули согласно БИЗНЕС разделам.
